@@ -1,0 +1,70 @@
+<html>
+    <style>
+    </style>
+    <title>test</title>
+    <head></head>
+    <style>
+      progress
+      {
+        height: 5px;
+        color: blue;
+        background-color:white;
+        border-radius: 1.5em;
+      }
+      progress::-webkit-progress-bar 
+      {
+      -webkit-appearance: none;
+        color:blue;
+        appearance: none;
+        background-color: #eee;
+        border-radius: 1.5em;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0) inset;
+        border-radius: 1.5em;
+      }
+      progress[value]::-webkit-progress-value
+       {
+      background-image:
+	   -webkit-linear-gradient(rgb(33, 70, 150), rgb(238, 238, 238));
+      border-radius: 2px; 
+      background-size: 35px 20px, 100% 100%, 100% 100%;
+       }
+    </style>
+    <h1>Maria Raj</h1>
+    <body> 
+    <span id="chromeFix"></span> 
+    <a href="https://www.instagram.com">One</a>
+    <a href="https://www.twitter.com">Two</a>
+    <a href="https://www.skype.com">Three</a>
+    <a href="https://www.hackthebox.eu">hackthebox</a>
+    <br>
+    <h3>Favorite Foods</h3>
+<ul>
+  
+<li>Apples</li>
+<li>Pizza</li>
+<li>Crab</li>
+<li>choclate cakes</li>
+</mark>
+  </ul> 
+  <h3>Achievements</h3>
+  <label>Progress in this course(100%)</label>
+  <progress max="100" value="100"> </progress>
+  <br>
+  <label>Progress in specialization capstone(20%)</label>
+  <progress max="100" value="20"> </progress>
+  <br>
+  <label>Progress in life goals(67%)
+  <progress max="100" value="67" ></progress>
+  </label>
+  <br>
+<h3>More about Me</h3>
+
+<details>
+  <summary>My childhood</summary>I grew up in kerala.I lived near a lake and I really miss back waters now.Those days were awesome.
+</details>
+<img src="http://www.intro-webdesign.com/images/newlogo.png">
+  <label>This page was created by maria & colleen van Lent. To learn about web design visit</label>
+  <a href="https://www.intro-webdesign.com">web-intro Designs</a>
+  </body>
+  </html>
+  
